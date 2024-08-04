@@ -18,6 +18,9 @@
   
   .alert {
     background-color: #17a2b8;
+    &:hover{
+      background-color: #070808;
+    }
   }
   
   .error {
