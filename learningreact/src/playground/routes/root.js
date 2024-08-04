@@ -80,6 +80,15 @@ const Canvas=styled.div`
     padding-top:1rem;
 `
 
+const ListWrapper=styled.ul`
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+`
+
 const Root = ({ props}) => {
   const [showSideBar, setShowSiderBar] = React.useState(true);
   return (
@@ -97,7 +106,7 @@ const Root = ({ props}) => {
             </RemoveSideBar>
           </h1>
           <nav>
-            <ul>
+            <ListWrapper >
                 {routeNames.map((routeName,index)=>(
                     <li key={index}>
                         <NavItem to={`/${routeName}`}  >
@@ -105,7 +114,7 @@ const Root = ({ props}) => {
                         </NavItem>
                     </li>
                 ))}
-            </ul>
+            </ListWrapper>
           </nav>
         </Sidebar>
       )}
