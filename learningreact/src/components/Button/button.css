@@ -1,0 +1,25 @@
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .success {
+    background-color: #28a745;
+  }
+  
+  .amber {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .alert {
+    background-color: #17a2b8;
+  }
+  
+  .error {
+    background-color: #dc3545;
+  }
