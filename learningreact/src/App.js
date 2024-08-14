@@ -1,27 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Props from './basicsOfReact/Props';
-import Todo from './TodoProject/todo'
+import PlaygroundMain from './playground/playgroundmain';
+import Home from './playground/routes/home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-          <Props/>
-          <Todo/>
-        </a>
-      </header>
+
+          <PlaygroundMain/>
+        
     </div>
   );
 }
