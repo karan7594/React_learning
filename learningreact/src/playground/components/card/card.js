@@ -15,7 +15,7 @@ const Cards = () => {
             <Card
               description={"this is a card component"}
               title={"Title"}
-              key={1}
+              key={1} 
             />
           </td>
           <td style={{ width: "25%", padding: "10px" }}>

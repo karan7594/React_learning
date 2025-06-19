@@ -1,5 +1,3 @@
-import React from React;
-import ReactDom from react-dom;
-ReactDom.render(<h1>hello !!!</h1>,
-    document.getElementById('root')
-)
+import React from "react";
+import ReactDom from "react-dom";
+ReactDom.render(<Props/>, document.getElementById("root"));
